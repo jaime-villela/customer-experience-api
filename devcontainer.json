@@ -1,0 +1,7 @@
+{
+
+    "image": "mcr.microsoft.com/mssql/server:latest",
+  
+    "postCreateCommand": "psql -c 'CREATE DATABASE my_database;'" 
+  
+  }  
